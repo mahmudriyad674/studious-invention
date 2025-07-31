@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Class 8 Subjects</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      background-color: #fff5e6;
+      padding: 50px;
+    }
+    h1 {
+      color: #e67300;
+    }
+    .subjects {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 300px;
+      margin: auto;
+    }
+    .subjects a {
+      display: block;
+      background-color: #e67300;
+      color: white;
+      text-decoration: none;
+      padding: 12px;
+      border-radius: 6px;
+      font-size: 18px;
+      transition: background-color 0.3s;
+    }
+    .subjects a:hover {
+      background-color: #cc6600;
+    }
+  </style>
+</head>
+<body>
+  <h1>Class 8 - বিষয় নির্বাচন করুন</h1>
+  <div class="subjects">
+    <a href="class8-bangla.html">বাংলা</a>
+    <a href="class8-math.html">গণিত</a>
+    <a href="class8-science.html">বিজ্ঞান</a>
+    <a href="class8-english.html">ইংরেজি</a>
+    <a href="class8-ict.html">আইসিটি</a>
+    <a href="class8-bgs.html">বাংলাদেশ ও বিশ্বপরিচয়</a>
+  </div>
+</body>
+</html>
