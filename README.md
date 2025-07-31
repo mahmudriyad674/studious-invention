@@ -3,69 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Class 7 - বিজ্ঞান</title>
+  <title>Class 7 & 8 Questions</title>
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background-color: #f9f9f9;
-      padding: 40px;
+      background-color: #f0f0f5;
+      padding: 30px;
+      text-align: center;
     }
     h1 {
-      text-align: center;
-      color: #2e8b57;
+      color: #2e86de;
     }
-    ol {
+    .btn-group {
+      margin: 20px 0;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2d7cc0;
+    }
+    .question-box {
+      display: none;
       max-width: 800px;
       margin: auto;
-      background: #fff;
+      background: white;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    li {
-      margin-bottom: 15px;
+      text-align: left;
     }
     .question {
       font-weight: bold;
-      color: #333;
+      margin-top: 15px;
     }
     .answer {
-      margin-top: 5px;
-      color: #555;
+      margin-left: 20px;
     }
   </style>
 </head>
 <body>
-  <h1>Class 7 - বিজ্ঞান প্রশ্ন ও উত্তর</h1>
-  <ol>
-    <li>
-      <span class="question">১। কোষ কাকে বলে?</span>
-      <div class="answer">জীবদেহের গঠন ও কার্যগত একককে কোষ বলা হয়।</div>
-    </li>
-    <li>
-      <span class="question">২। উদ্ভিদ কীভাবে খাদ্য তৈরি করে?</span>
-      <div class="answer">উদ্ভিদ সূর্যালোক, পানি, ও কার্বন ডাইঅক্সাইড ব্যবহার করে সালোকসংশ্লেষণের মাধ্যমে খাদ্য তৈরি করে।</div>
-    </li>
-    <li>
-      <span class="question">৩। প্রাণীদের শ্বাস-প্রশ্বাস কেমন?</span>
-      <div class="answer">প্রাণীরা অক্সিজেন গ্রহণ করে এবং কার্বন ডাইঅক্সাইড ত্যাগ করে, এই প্রক্রিয়াকে শ্বাস-প্রশ্বাস বলা হয়।</div>
-    </li>
-    <li>
-      <span class="question">৪। মাছ কিভাবে শ্বাস নেয়?</span>
-      <div class="answer">মাছ পানি থেকে অক্সিজেন গ্রহণ করে গিলের মাধ্যমে শ্বাস নেয়।</div>
-    </li>
-    <li>
-      <span class="question">৫। পাখিরা কীভাবে উড়ে?</span>
-      <div class="answer">পাখিরা তাদের পাখা নাড়িয়ে বাতাসে ঠেলা তৈরি করে এবং হালকা শরীরের সাহায্যে আকাশে উড়ে।</div>
-    </li>
-    <li>
-      <span class="question">৬। প্রাণী ও উদ্ভিদের মধ্যে পার্থক্য কী?</span>
-      <div class="answer">উদ্ভিদ নিজে খাদ্য তৈরি করতে পারে, প্রাণী পারে না। প্রাণীরা চলাফেরা করে, উদ্ভিদ স্থির থাকে।</div>
-    </li>
-    <li>
-      <span class="question">৭। পরিবেশের সাথে প্রাণী কিভাবে খাপ খায়?</span>
-      <div class="answer">প্রাণীরা নিজেদের শারীরিক বৈশিষ্ট্য পরিবর্তন করে পরিবেশের সাথে খাপ খায়, যেমন উট মরুভূমিতে টিকে থাকে।</div>
-    </li>
-  </ol>
+  <h1>Class 7 ও 8 - প্রশ্ন ও উত্তর</h1>
+
+  <div class="btn-group">
+    <button onclick="showSection('class7')">Class 7</button>
+    <button onclick="showSection('class8')">Class 8</button>
+  </div>
+
+  <div id="class7" class="question-box">
+    <h2>Class 7 - বিজ্ঞান</h2>
+    <div class="question">১। কোষ কাকে বলে?</div>
+    <div class="answer">জীবদেহের গঠন ও কার্যগত একক হলো কোষ।</div>
+
+    <div class="question">২। মাছ কিভাবে শ্বাস নেয়?</div>
+    <div class="answer">মাছ গিলে পানি টানে ও গিলের সাহায্যে অক্সিজেন গ্রহণ করে।</div>
+
+    <div class="question">৩। পাখি কীভাবে উড়ে?</div>
+    <div class="answer">পাখি ডানা নেড়ে ও হালকা শরীরের মাধ্যমে উড়ে।</div>
+  </div>
+
+  <div id="class8" class="question-box">
+    <h2>Class 8 - বিজ্ঞান</h2>
+    <div class="question">১। পদার্থ কাকে বলে?</div>
+    <div class="answer">যে সব কিছুর ওজন আছে ও স্থান দখল করে তাকে পদার্থ বলে।</div>
+
+    <div class="question">২। পরমাণু কী?</div>
+    <div class="answer">পদার্থের ক্ষুদ্রতম কণা যা রাসায়নিকভাবে অবিভাজ্য।</div>
+
+    <div class="question">৩। সালোকসংশ্লেষণ কী?</div>
+    <div class="answer">উদ্ভিদ সূর্যালোক, পানি ও CO₂ ব্যবহার করে খাদ্য তৈরি করে।</div>
+  </div>
+
+  <script>
+    function showSection(classId) {
+      document.getElementById('class7').style.display = 'none';
+      document.getElementById('class8').style.display = 'none';
+      document.getElementById(classId).style.display = 'block';
+    }
+  </script>
 </body>
 </html>
+
